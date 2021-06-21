@@ -14,6 +14,12 @@
   </head>
   
   <?php echo "This web page is created by Qi-Xiang 2021."; ?>
+  
+  <!--
+    Github pages currently do not support PHP as it only supports static website. 
+    However, if you want to display some dynamic content on your website,
+    you can simply use iframe to display that content, but again it has to be hosted somewhere else.
+  -->
 
 
   <body>
@@ -158,64 +164,64 @@
     
     
     <div class="container-fluid" id="skills">
-      <div class="row">
-        <div class="jumbotron jumbotron-fluid col-12" style="display: flex;justify-content: center;margin-bottom: 0px;padding-bottom: 0px;padding-top: 80px;">
+      <div class="row" id="skills-div1">
+        <div class="jumbotron jumbotron-fluid col-12" id="skills-div1-div1">
           <div class="container">
-            <h1 class="display-4 font-italic" style="font-size: 32px;font-family: serif;color: #5569DC;">Skills & Languages</h1>
-            <p class="lead" style="font-size: 16px;font-family: sans-serif;color: #5569DC;opacity: 0.8;letter-spacing:0.15em;">WHAT I BRING TO THE TABLE</p>
+            <h1 class="display-4 font-italic">Skills & Languages</h1>
+            <p class="lead">WHAT I BRING TO THE TABLE</p>
           </div>
         </div>
         <div class="container" id="progressbar1">
-          <p class="progress-label" style="width:12em;float: left;margin-top: calc(1rem - 4px);margin-right: 3.5em;font-size: 16px;font-family: sans-serif;color:#1C2349;line-height: 1.8em;opacity: 0.8;">Java</p>
-          <div class="progress" id="prog1" style="margin-top: 1.25rem;height: 12px;">
+          <p class="progress-label">Java</p>
+          <div class="progress" id="prog1">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
                 <span class="sr-only">20% Complete</span>80%
             </div>
           </div>
         </div>
         <div class="container" id="progressbar2">
-          <p class="progress-label" style="width:12em;float: left;margin-top: calc(1rem - 4px);margin-right: 3.5em;font-size: 16px;font-family: sans-serif;color:#1C2349;line-height: 1.8em;opacity: 0.8;">HTML & CSS</p>
-          <div class="progress" id="prog1" style="margin-top: 1.25rem;height: 12px;">
+          <p class="progress-label">HTML & CSS</p>
+          <div class="progress" id="prog1">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
                 <span class="sr-only">20% Complete</span>70%
             </div>
           </div>
         </div> 
         <div class="container" id="progressbar3">
-          <p class="progress-label" style="width:12em;float: left;margin-top: calc(1rem - 4px);margin-right: 3.5em;font-size: 16px;font-family: sans-serif;color:#1C2349;line-height: 1.8em;opacity: 0.8;">JavaScript & JQuery</p>
-          <div class="progress" id="prog1" style="margin-top: 1.25rem;height: 12px;">
+          <p class="progress-label">JavaScript & JQuery</p>
+          <div class="progress" id="prog1">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
                 <span class="sr-only">20% Complete</span>50%
             </div>
           </div>
         </div> 
         <div class="container" id="progressbar4">
-          <p class="progress-label" style="width:12em;float: left;margin-top: calc(1rem - 4px);margin-right: 3.5em;font-size: 16px;font-family: sans-serif;color:#1C2349;line-height: 1.8em;opacity: 0.8;">Python</p>
-          <div class="progress" id="prog1" style="margin-top: 1.25rem;height: 12px;">
+          <p class="progress-label">Python</p>
+          <div class="progress" id="prog1">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
                 <span class="sr-only">20% Complete</span>45%
             </div>
           </div>
         </div>
         <div class="container" id="progressbar5">
-          <p class="progress-label" style="width:12em;float: left;margin-top: calc(1rem - 4px);margin-right: 3.5em;font-size: 16px;font-family: sans-serif;color:#1C2349;line-height: 1.8em;opacity: 0.8;">Bootstrap 4</p>
-          <div class="progress" id="prog1" style="margin-top: 1.25rem;height: 12px;">
+          <p class="progress-label">Bootstrap 4</p>
+          <div class="progress" id="prog1">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
                 <span class="sr-only">20% Complete</span>40%
             </div>
           </div>
         </div>
         <div class="container" id="progressbar6">
-          <p class="progress-label" style="width:12em;float: left;margin-top: calc(1rem - 4px);margin-right: 3.5em;font-size: 16px;font-family: sans-serif;color:#1C2349;line-height: 1.8em;opacity: 0.8;">Stock Analysis</p>
-          <div class="progress" id="prog1" style="margin-top: 1.25rem;height: 12px;">
+          <p class="progress-label">Stock Analysis</p>
+          <div class="progress" id="prog1">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">
                 <span class="sr-only">20% Complete</span>35%
             </div>
           </div>
         </div>
         <div class="container" id="progressbar7">
-          <p class="progress-label" style="width:12em;float: left;margin-top: calc(1rem - 4px);margin-right: 3.5em;font-size: 16px;font-family: sans-serif;color:#1C2349;line-height: 1.8em;opacity: 0.8;">Git</p>
-          <div class="progress" id="prog1" style="margin-top: 1.25rem;height: 12px;">
+          <p class="progress-label">Git</p>
+          <div class="progress" id="prog1">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
                 <span class="sr-only">20% Complete</span>25%
             </div>
@@ -225,32 +231,32 @@
         
 
         <div class="container" style="margin-top: 3em;" id="progressbar8">
-          <p class="progress-label" style="width:12em;float: left;margin-top: calc(1rem - 4px);margin-right: 3.5em;font-size: 16px;font-family: sans-serif;color:#1C2349;line-height: 1.8em;opacity: 0.8;">Chinese</p>
-          <div class="progress" id="prog1" style="margin-top: 1.25rem;height: 12px;">
+          <p class="progress-label">Chinese</p>
+          <div class="progress" id="prog1">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
                 <span class="sr-only">20% Complete</span>100%
             </div>
           </div>
         </div>
         <div class="container" id="progressbar9">
-          <p class="progress-label" style="width:12em;float: left;margin-top: calc(1rem - 4px);margin-right: 3.5em;font-size: 16px;font-family: sans-serif;color:#1C2349;line-height: 1.8em;opacity: 0.8;">Taiwanese</p>
-          <div class="progress" id="prog1" style="margin-top: 1.25rem;height: 12px;">
+          <p class="progress-label">Taiwanese</p>
+          <div class="progress" id="prog1">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                 <span class="sr-only">20% Complete</span>90%
             </div>
           </div>
         </div>  
         <div class="container" id="progressbar10">
-          <p class="progress-label" style="width:12em;float: left;margin-top: calc(1rem - 4px);margin-right: 3.5em;font-size: 16px;font-family: sans-serif;color:#1C2349;line-height: 1.8em;opacity: 0.8;">English</p>
-          <div class="progress" id="prog1" style="margin-top: 1.25rem;height: 12px;">
+          <p class="progress-label">English</p>
+          <div class="progress" id="prog1">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
                 <span class="sr-only">20% Complete</span>80%
             </div>
           </div>
         </div> 
         <div class="container" id="progressbar11">
-          <p class="progress-label" style="width:12em;float: left;margin-top: calc(1rem - 4px);margin-right: 3.5em;font-size: 16px;font-family: sans-serif;color:#1C2349;line-height: 1.8em;opacity: 0.8;">Japanese</p>
-          <div class="progress" id="prog1" style="margin-top: 1.25rem;height: 12px;">
+          <p class="progress-label">Japanese</p>
+          <div class="progress" id="prog1">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">
                 <span class="sr-only">20% Complete</span>35%
             </div>

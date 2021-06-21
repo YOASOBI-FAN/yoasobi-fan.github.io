@@ -1,3 +1,5 @@
+/*各區塊的版面設定*/
+
 #myBtn {
     display: none;
     position: fixed;
@@ -310,3 +312,171 @@ a{
     line-height: 1.8em;
     opacity: 0.8;
 }
+
+/*id:skills*/
+
+#skills-div1-div1{
+    display: flex;justify-content: center;
+    margin-bottom: 0px;padding-bottom: 0px;
+    padding-top: 80px;
+}
+
+#skills-div1-div1 div h1{
+    font-size: 32px;
+    font-family: serif;
+    color: #5569DC;
+}
+
+#skills-div1-div1 div p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #5569DC;
+    opacity: 0.8;
+    letter-spacing:0.15em;
+}
+
+#progressbar1 p{
+    width:12em;
+    float: left;
+    margin-top: calc(1rem - 4px);
+    margin-right: 3.5em;font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+#prog1{
+    margin-top: 1.25rem;
+    height: 12px;
+}
+
+#progressbar2 p{
+    width:12em;
+    float: left;
+    margin-top: calc(1rem - 4px);
+    margin-right: 3.5em;font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+#progressbar3 p{
+    width:12em;
+    float: left;
+    margin-top: calc(1rem - 4px);
+    margin-right: 3.5em;font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+#progressbar4 p{
+    width:12em;
+    float: left;
+    margin-top: calc(1rem - 4px);
+    margin-right: 3.5em;font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+#progressbar5 p{
+    width:12em;
+    float: left;
+    margin-top: calc(1rem - 4px);
+    margin-right: 3.5em;font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+#progressbar6 p{
+    width:12em;
+    float: left;
+    margin-top: calc(1rem - 4px);
+    margin-right: 3.5em;font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+#progressbar7 p{
+    width:12em;
+    float: left;
+    margin-top: calc(1rem - 4px);
+    margin-right: 3.5em;font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+#progressbar8 p{
+    width:12em;
+    float: left;
+    margin-top: calc(1rem - 4px);
+    margin-right: 3.5em;font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+#progressbar9 p{
+    width:12em;
+    float: left;
+    margin-top: calc(1rem - 4px);
+    margin-right: 3.5em;font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+#progressbar10 p{
+    width:12em;
+    float: left;
+    margin-top: calc(1rem - 4px);
+    margin-right: 3.5em;font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+#progressbar11 p{
+    width:12em;
+    float: left;
+    margin-top: calc(1rem - 4px);
+    margin-right: 3.5em;font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
