@@ -1,0 +1,312 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 0.5;
+  }
+
+#myBtn:hover {
+    background-color: #555;
+}
+a{
+    text-decoration: none;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 0px 25px 0px 0px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: black;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    color: black;
+}
+
+/*Instagram*/
+.fa-instagram {
+    color: black;
+}
+
+/*Style for a:hover*/
+
+.about a:hover{
+    color: aqua !important;
+}
+.education a:hover{
+    color: aqua !important;
+}
+.skills a:hover{
+    color: aqua !important;
+}.awards a:hover{
+    color: aqua !important;
+}
+
+/*------------------------------------------------------------------------*/
+
+/*id: navbar*/
+
+#navbar{
+    background-color: #5569DC;
+}
+#navbar p{
+    padding-right: 15px;
+}
+#navbar p a{
+    color: white;
+    font-weight: bolder;
+    font-family: serif;
+}
+.navbar-nav{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: serif;
+}
+
+/*id: profile*/
+
+#profile{
+    margin-top: 71.6px;
+}
+
+#profile-div1{
+    border: none;
+    outline: none;
+    padding: 0px;
+}
+
+#profile-div1 img{
+    padding: 0px;
+    width: 100% !important;
+}
+
+#profile-div2{
+    background-color: #5569DC !important;
+    outline: none !important;
+    border: none !important;
+    padding: 0px !important;
+}
+
+#profile-div2-div1{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#profile-div2-div1 img{
+    width: 140px;
+    height: 140px;
+    border: none;
+    outline: none;
+}
+
+#profile-div2-div2{
+    outline: none;
+    border: none;
+}
+
+#profile-div2-div2 h3{
+    color: white;
+    font-weight: bolder;
+    font-family: serif;
+}
+
+#profile-div2-div2 p{
+    font-weight: bold;
+    line-height: 0.5em;
+    font-family: serif;
+    color: white;
+}
+
+#profile-div2-div2 div{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+/*id: about*/
+
+#about-div1{
+    background-color: rgba(60, 63, 83, 0.1);
+}
+
+#about-div1-div1{
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 5px; 
+}
+
+#about-div1-div1-div1 h1{
+    font-size: 32px;
+    font-family: serif;
+    color: #5569DC;  
+}
+
+#about-div1-div1-div1 p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #5569DC;opacity: 0.8;
+    letter-spacing:0.15em
+}
+
+#about-div1-div2{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+#fadeArea1 p{
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: normal;
+    font-family: sans-serif;
+    margin: auto;
+    color: #1c2349;
+}
+
+/*id:education*/
+
+#education-div1{
+    background-color: rgba(85,105,220,0.1);
+}
+
+#education-div1-div1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-top: 80px; 
+}
+
+#education-div1-div1 div h1{
+    font-size: 32px;
+    font-family: serif;
+    color: #5569DC;
+}
+
+#education-div1-div1 div p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #5569DC;
+    opacity: 0.8;
+    letter-spacing:0.15em
+}
+
+#education-div1-div2{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+#fadeArea2 p{
+    font-size: 21px;
+    line-height: 2em;
+    letter-spacing: normal;
+    font-family: sans-serif;
+    margin: auto;
+    color: #1c2349;
+}
+
+#fadeArea2 span{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(28,35,73);
+}
+
+#fadeArea2 pre{
+    font-size: 16px;
+    font-family: sans-serif;
+    color:#1C2349;
+    line-height: 1.8em;
+    opacity: 0.8;
+}
+
+/*id:experience*/
+
+#experience-div1{
+    background-color: rgba(85,105,220,0.1);
+}
+
+#experience-div1-div1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-top: 0; 
+}
+
+#experience-div1-div1 div h1{
+    font-size: 32px;
+    font-family: serif;
+    color: #5569DC;
+}
+
+#experience-div1-div1 div p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #5569DC;
+    opacity: 0.8;
+    letter-spacing:0.15em
+}
+
+#experience-div1-div2{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+#fadeArea3 p{
+    font-size: 21px;
+    line-height: 2em;
+    letter-spacing: normal;
+    font-family: sans-serif;
+    margin: auto;
+    color: #1c2349;
+}
+
+#fadeArea3 p span{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(28,35,73);
+}
+
+#fadeArea3 pre{
+    font-size: 16px;
+    font-family: sans-serif !important;
+    color:#1C2349 !important; 
+    line-height: 1.8em;
+    opacity: 0.8;
+}
